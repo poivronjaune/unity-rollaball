@@ -67,7 +67,7 @@ public class GameController : MonoBehaviour
     public void EndGame()
     {
         mainText.gameObject.SetActive(true);
-        mainText.text = "You win, R:Restart";
+        mainText.text = "You win!";
 
     }
 
